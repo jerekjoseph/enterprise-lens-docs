@@ -92,12 +92,12 @@ Create these last as Stories save the state of the Illustration, especially new 
 Augment your Style Guide to have the colors and palette of the company you are presenting too.
 
 1. Company Logo 
-- - It is always nice to use the logo of the company you are presenting too.  As Enterprise Lens is a SaaS tool you cannot simply paste an image. However you can reference one.  
-- - If you navigate to your customers website and hit the F12 key, you will be able to locate their company logo for reference.
+  - It is always nice to use the logo of the company you are presenting too.  As Enterprise Lens is a SaaS tool you cannot simply paste an image. However you can reference one.  
+  - If you navigate to your customers website and hit the F12 key, you will be able to locate their company logo for reference.
 2. Create your own Style Guide(s) 
-- - For use with different client or different industries and have the naming convention to suit
+  - For use with different client or different industries and have the naming convention to suit
 3. Contemporary Colours 
-- - When designing your Illustration, it is recommended that you use a subtle background colour and lighter foreground colors.
+  - When designing your Illustration, it is recommended that you use a subtle background colour and lighter foreground colors.
 
 - Scroll to the bottom of Styles in Edit Box Form - for commonly used ones.
 
@@ -131,14 +131,14 @@ If you need some assistance in editing JSON [Visual Studio Code](https://code.vi
 ### 15. Import/Export 
 
 1. Lenses  
-- - Consider adding lenses before exporting.  
-- - If you have several Choice Lenses (ones with a lookup) then when you export these to Excel they will pass through as Excel in-cell drop downs and could be really useful assisting people populating the Illustration during a discovery phase.
+  - Consider adding lenses before exporting.  
+  - If you have several Choice Lenses (ones with a lookup) then when you export these to Excel they will pass through as Excel in-cell drop downs and could be really useful assisting people populating the Illustration during a discovery phase.
 2. Import Excel
-- - This brings in new columns (but not new rows of data)
+  - This brings in new columns (but not new rows of data)
 3. Import Excel (Canvases) 
-- - Brings in new columns (but not new rows of data)
+  - Brings in new columns (but not new rows of data)
 4. Import Child Boxes 
-- - Brings in both new Row and New Column data
+  - Brings in both new Row and New Column data
 
 :::tip
 
@@ -149,10 +149,10 @@ All Associations are `DATA DRIVEN` you can export these Asscociations to Excel, 
 ### 15. Illustration Design  
 - When designing an Illustration or dragging parts around, it can be extremely useful to amend the Configuration parameters in the right hand menu. Illustration Width/Height and View and Edit mode spacing
 - The Multi edit tool on the top header menu can select some, part of all of an illustration, allowing you to make mass changes at a single time. 
-- - - This feature also has three modes: 
-- - - LEFT-Click selects all children
-- - - CTRL-Click selects the Parent
-- - - SHIFT-Click selects the parents children.
+    - This feature also has three modes: 
+    - LEFT-Click selects all children
+    - CTRL-Click selects the Parent
+    - SHIFT-Click selects the parents children.
 
 ### 16. Microsoft Teams 
 Enterprise Lens can be used in its current form inside a Microsoft Teams tab. 
@@ -165,24 +165,25 @@ There are several handy Excel formulas that make for an easier life. These have 
 Enterprise does the majority of the processing on the client side.  If performance is sluggish, look to see if there are any rogue processes running.
 
 1. **Save your Illustration remember to save your Illustration on a regular basis as it is a SaaS solution and closing your browser will close your Illustration.
-- -  You can use the Import/Export function to copy your Illustration code to the Downloads directory.
+  -  You can use the Import/Export function to copy your Illustration code to the Downloads directory.
 2. You don't need to have your PC to demo the software.  As Enterprise Lens is a true SaaS solution,  you simply need access to the internet.
 
 ### 19. Associations
 
 Here's the simple rundown!
-| **Type**                      | **Description**                                                                                                                                                                               |                                              |
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
-| Single                        | If it's a single FROM value looking up a list then use a Attribute Values Reverse lookup (and it's going to look at any value in the target type looking for the value that you've got).      |                                              |
-| Multiple                      | If there are multiple FROM values then use a normal Attribute Values lookup and point it at the single value you want to match it with                                                        |                                              |
-| Box UUIDs                     | Looks up the name of the Box you are joining to (you provide the attribute or convert a Lens. If more than 1 name then comma separate them)                                                   |                                              |
-| Box Reverse Lookup UUIDs      | Looks at the Box Name you have moused over and Joins it to ANY attribute from Permitted Box Type with the same name                                                                           |                                              |
-| Name Lookup                   | Looks up the name of the Box you are joining to (you provide the attribute or convert a Lens. If more than 1 name then comma separate them)                                                   |                                              |
-| Name Reverse Lookup           | Looks at the Box Name you have moused over and Joins it to ANY attribute from Permitted Box Type with the same name                                                                           |                                              |
-| Attribute Lookup              | Looks up the Attribute Value you want to join to (you provide the attribute name or convert a Lens. If more than 1 name then comma separate them)                                             |                                              |
-| Attribute Reverse Lookup      | If you use Attribute Values Lookup for an association that Joins A To B, then it is extremely likely that you will use attribute values reverse lookup that Joins the same Boxes from B To A. | Same goes for Names and Names Reverse Lookup |
-| Attribute Values Lookup       | show many joins example and how the Association style is standard. You change it in a single place                                                                                            |                                              |
-| Default Association Attribute | Whether respawn anchors can be activated                                                                                                                                                      |                                              |
+
+| **Type**                      | **Description**                                                                                                                                                                                                                             |
+|-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Single                        | If it's a single FROM value looking up a list then use a Attribute Values Reverse lookup (and it's going to look at any value in the target type looking for the value that you've got).                                                    |
+| Multiple                      | If there are multiple FROM values then use a normal Attribute Values lookup and point it at the single value you want to match it with                                                                                                      |
+| Box UUIDs                     | Looks up the name of the Box you are joining to (you provide the attribute or convert a Lens. If more than 1 name then comma separate them)                                                                                                 |
+| Box Reverse Lookup UUIDs      | Looks at the Box Name you have moused over and Joins it to ANY attribute from Permitted Box Type with the same name                                                                                                                         |
+| Name Lookup                   | Looks up the name of the Box you are joining to (you provide the attribute or convert a Lens. If more than 1 name then comma separate them)                                                                                                 |
+| Name Reverse Lookup           | Looks at the Box Name you have moused over and Joins it to ANY attribute from Permitted Box Type with the same name                                                                                                                         |
+| Attribute Lookup              | Looks up the Attribute Value you want to join to (you provide the attribute name or convert a Lens. If more than 1 name then comma separate them)                                                                                           |
+| Attribute Reverse Lookup      | If you use Attribute Values Lookup for an association that Joins A To B, then it is extremely likely that you will use attribute values reverse lookup that Joins the same Boxes from B To A. Same goes for Names and Names Reverse Lookup. |
+| Attribute Values Lookup       |                                                                                                                                                                                                                                             |
+| Default Association Attribute | Show many joins example and how the Association style is standard. You change it in a single place                                                                                                                                          |
 :::tip
 Did you know that you can convert a Lense straight to an Association
 :::
