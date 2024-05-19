@@ -5,7 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
-import remarkImageSrcWithBase from './src/remark/imagesSrcWithBase.js';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Documentation',
@@ -42,7 +42,6 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
-          beforeDefaultRemarkPlugins: [remarkImageSrcWithBase],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -140,4 +139,6 @@ const config = {
     }),
 };
 
-export default config;
+export default config {
+  plugins: ['./src/remark/imagesSrcWithBase.js']
+};
