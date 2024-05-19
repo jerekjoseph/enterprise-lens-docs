@@ -5,7 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
-import remarkImageSrcWithBase from './src/remark/imagesSrcWithBase.js';
+import remarkImageSrc from './src/remark/imagesSrcWithBase.js';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Documentation',
@@ -40,7 +40,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          beforeDefaultRemarkPlugins: [remarkImageSrcWithBase],
+          plugins: [remarkImageSrc],
+          beforeDefaultRemarkPlugins: [remarkImageSrc],
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
           // Please change this to your repo.
