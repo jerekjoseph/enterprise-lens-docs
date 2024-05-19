@@ -65,7 +65,7 @@ With the addition of data driven lookups (such as the Name value and the Attribu
 
 The `Assocations menu` is located at the bottom of the Right Hand Menu.
 
-<img src="./Images/316-7.png" alt="Screenshot 2024-02-29 at 13.02.35" style="zoom:100%;" /> 
+<img src="./Images/316-7.png" alt="Screenshot 2024-02-29 at 13.02.35"/> 
 
 This entire section can be removed with the new role.
 
