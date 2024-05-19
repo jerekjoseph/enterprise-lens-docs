@@ -17,7 +17,7 @@ const plugin = (options) => {
       });
     };
   };
-  return transformer;
+  return remarkImageSrcWithRequire;
 };
 
 module.exports = plugin;
