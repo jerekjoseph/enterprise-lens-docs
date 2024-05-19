@@ -69,7 +69,7 @@ By selecting `add` the distinct values found for the Risk Attribute within the B
 
 In this example, if you were to hover over the new "**Low**" child box that is  created, you will see all ``Projects`` that have the `Risk` attribute **set to "Low"** and a new two-way association has been created.
 
-<img src="./Images/315-5.png" alt="Screenshot 2024-02-29 at 14.10.26" style="zoom:67%;" /> 
+![3.1.5-5](./Images/315-5.png)
 
 
 
@@ -99,7 +99,7 @@ In the image above, you will now select the `Add Attribute Query`.  This will pr
 
 You select the `Box Type` that holds the `Attribute`, determine the `Comparison Operator` you want to use and select the `Value` you would like to compare against, just as in the form below
 
-<img src="./Images/315-12.png" alt="Screenshot 2024-02-29 at 13.33.08" style="zoom:67%;" />  
+![3.1.5-12](./Images/315-12.png)
 
 
 
@@ -184,7 +184,7 @@ This is useful in a number of cases where:
 
 If you edit the "Amount" Attribute (that has order 2 in the example above) 
 
-<img src="./Images/315-8.png" alt="Screenshot 2024-02-29 at 11.17.37" style="zoom:100%;" />
+![315-8](./Images/315-8.png)
 
 
 
