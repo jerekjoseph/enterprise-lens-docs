@@ -80,7 +80,7 @@ Where possible, use two monitors when developing an Illustration as you can logi
 
 Where possible, leverage the default Illustration.  It will only continue to get more feature rich, designed to save you time and effort.
 
-::tip
+:::tip
 If doing a new version of an Illustration, have the current Illustration on one monitor and the new version of the Illustration on the other monitor
 :::
 
@@ -101,7 +101,7 @@ Augment your Style Guide to have the colors and palette of the company you are p
 
 - Scroll to the bottom of Styles in Edit Box Form - for commonly used ones.
 
-::tip[Colour]
+:::tip[Colour]
 There are many tools out there than can assist with colors. These are two that are often used: [Eva Design system](https://colors.eva.design/) and [Material Palette](https://www.materialpalette.com/colors) One of the best tools we have found during the creation of Enterprise Lens and colour matching is Snagit by [TechSmith](https://www.techsmith.com)
 :::
 
