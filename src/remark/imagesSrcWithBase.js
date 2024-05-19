@@ -1,4 +1,6 @@
-  /**
+const visit = require('unist-util-visit');
+
+/**
    * Docusaurus does not process JSX `<img src ="...">` URLs
    * This plugin rewrites the src attribute to `src={require("...").default}`
    * Markdown links `[]()`, images `![](/image)` and anchor `<a href="...">`
@@ -14,3 +16,5 @@
       });
     };
   };
+
+module.exports = plugin;
