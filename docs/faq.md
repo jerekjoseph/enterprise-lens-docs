@@ -92,12 +92,12 @@ Create these last as Stories save the state of the Illustration, especially new 
 Augment your Style Guide to have the colors and palette of the company you are presenting too.
 
 1. Company Logo 
-  - It is always nice to use the logo of the company you are presenting too.  As Enterprise Lens is a SaaS tool you cannot simply paste an image. However you can reference one.  
-  - If you navigate to your customers website and hit the F12 key, you will be able to locate their company logo for reference.
+    - It is always nice to use the logo of the company you are presenting too.  As Enterprise Lens is a SaaS tool you cannot simply paste an image. However you can reference one.  
+    - If you navigate to your customers website and hit the F12 key, you will be able to locate their company logo for reference.
 2. Create your own Style Guide(s) 
-  - For use with different client or different industries and have the naming convention to suit
+    - For use with different client or different industries and have the naming convention to suit
 3. Contemporary Colours 
-  - When designing your Illustration, it is recommended that you use a subtle background colour and lighter foreground colors.
+    - When designing your Illustration, it is recommended that you use a subtle background colour and lighter foreground colors.
 
 - Scroll to the bottom of Styles in Edit Box Form - for commonly used ones.
 
@@ -131,14 +131,14 @@ If you need some assistance in editing JSON [Visual Studio Code](https://code.vi
 ### 15. Import/Export 
 
 1. Lenses  
-  - Consider adding lenses before exporting.  
-  - If you have several Choice Lenses (ones with a lookup) then when you export these to Excel they will pass through as Excel in-cell drop downs and could be really useful assisting people populating the Illustration during a discovery phase.
+    - Consider adding lenses before exporting.  
+    - If you have several Choice Lenses (ones with a lookup) then when you export these to Excel they will pass through as Excel in-cell drop downs and could be really useful assisting people populating the Illustration during a discovery phase.
 2. Import Excel
-  - This brings in new columns (but not new rows of data)
+    - This brings in new columns (but not new rows of data)
 3. Import Excel (Canvases) 
-  - Brings in new columns (but not new rows of data)
+    - Brings in new columns (but not new rows of data)
 4. Import Child Boxes 
-  - Brings in both new Row and New Column data
+    - Brings in both new Row and New Column data
 
 :::tip
 
@@ -161,11 +161,11 @@ Enterprise Lens can be used in its current form inside a Microsoft Teams tab.
 ### 17. Microsoft Excel
 There are several handy Excel formulas that make for an easier life. These have been documented in the Admin document.
 
-### 18. Performance  
+### 18. Performance and Saves
 Enterprise does the majority of the processing on the client side.  If performance is sluggish, look to see if there are any rogue processes running.
 
-1. **Save your Illustration remember to save your Illustration on a regular basis as it is a SaaS solution and closing your browser will close your Illustration.
-  -  You can use the Import/Export function to copy your Illustration code to the Downloads directory.
+1. Remember to save your Illustration on a regular basis as it is a SaaS solution and closing your browser will close your Illustration.
+    -  You can use the Import/Export function to copy your Illustration code to the Downloads directory.
 2. You don't need to have your PC to demo the software.  As Enterprise Lens is a true SaaS solution,  you simply need access to the internet.
 
 ### 19. Associations
