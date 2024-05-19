@@ -1,11 +1,11 @@
 ---
-slug: release-3-0.3
-title: Release 3.0.3
+slug: release-3-0.4
+title: Release 3.0.4
 authors: [brian]
 tags: [release]
 ---
 
-We are pleased to present Enterprise Lens 3.0.x
+We are pleased to present Enterprise Lens 3.0.4
 
 
 
@@ -47,7 +47,7 @@ There is a new Story titled `Front Cover` that is to be used for either internal
 
 The logos on this page need to be a URL reference from a secure site (i.e https:) or an image you have access to when demonstrating.
 
-![Image](./Images/3.0.2-1.png)
+![3.0.2-1](./Images/3.0.2-1.png)
 
 
 
@@ -66,7 +66,7 @@ It is recommended that Box Type 1 be your primary Box Type ie the Box Type that 
 
 | DEFAULT (BOX TYPE) CANVAS                            | BOX TYPE                                              |
 | ---------------------------------------------------- | ----------------------------------------------------- |
-| ![Image](./Images/3.0.2-4.png) | ![Image](./Images/3.0.2-3.png") |
+| ![3.0.2-4](./Images/3.0.2-4.png) | ![3.0.2-3](./Images/3.0.2-3.png) |
 
 > The box names are designed to be amended and tailored to your needs.  We suggest that whatever name you change the Box name in the right hand menu to be - also change the Box name in the Illustration as it will be easier to manage.
 >
@@ -81,7 +81,7 @@ You are now able to load data directly from Excel without configuring your illus
 
 * select the box you would like to populate from the Excel Table by clicking on it
 * this will bring up the Edit Box form
-* select the Export Child Boxes ![Image](./Images/3.0.2-7.png")
+* select the Export Child Boxes ![3.0.2-7](./Images/3.0.2-7.png)
 * this will create a new excel spreadsheet.  Fill this with the data that you want and then save the excel file and click on "Import Child Boxes" to load the  data from the Excel Spreadsheet into the selected box.
 
 ## 3. Dynamic Associations
@@ -119,7 +119,7 @@ To use:
 
 * enter the number of columns you would like to add before moving to the next row:
 
-* ![Image](./Images/3.0.2-8.png")
+* ![3.0.2-1](./Images/3.0.2-8.png)
 
   
 
@@ -136,8 +136,8 @@ To accelerate your Illustration building, you are able to purchase access to all
 This feature allows you to link to your own internal corporate documents or documents.  To use:
 
 * simply click on the box that you would like to add the URL to - this will open the Edit Box Form.
-* enter the URL ![Image](./Images/3.0.2-9.png")
-* When you click on this box in (**View Mode** ![Image](./Images/3.0.2-10.png")) - you will automatically navigate to this location.
+* enter the URL ![3.0.2-9](./Images/3.0.2-9.png)
+* When you click on this box in (**View Mode** ![3.0.2-10](./Images/3.0.2-10.png)) - you will automatically navigate to this location.
 
 
 
@@ -145,9 +145,9 @@ This feature allows you to link to your own internal corporate documents or docu
 
 You are now able to use the Multi-Edit feature to **Delete** boxes from an Illustration.  This can be useful for deleting Boxes from a recent import.  To use this new functionality, simply 
 
-* select the multi-edit icon from the top menu bar:![Image](./Images/3.0.2-5.png)
+* select the multi-edit icon from the top menu bar:![3.0.2-5](./Images/3.0.2-5.png)
 * click on the boxes you would like to delete
-* select the delete option from the top header menu![Image](./Images/3.0.2-6.png")
+* select the delete option from the top header menu ![3.0.2-6](./Images/3.0.2-6.png)
 
 ## 8. Branding
 
@@ -155,7 +155,7 @@ You are now able to use the Multi-Edit feature to **Delete** boxes from an Illus
 
 There is a new, contemporary logo created for this release:
 
-![Image](./Images/EL-Logo.png)
+![New Logo!](./Images/EL-Logo.png)
 
 ### New Header bar logo and background colour
 
@@ -175,7 +175,7 @@ The new additions include:
 
 | Front Cover 1 (Yellow)                                | Front Cover 1 (Blue)                                  | Front Cover 1 (Grey)                                  | Front Cover 1 (Teal)                                  | Front Cover 5 (Lilac)                                 |
   | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
-  | ![Image](./Images/3.0.2-15.png") | ![Image](./Images/3.0.2-16.png") | ![Image](./Images/3.0.2-17.png") | ![Image](./Images/3.0.2-18.png") | ![Image](./Images/3.0.2-19.png") |
+  | ![3.0.2-15](./Images/3.0.2-15.png) | ![3.0.2-16](./Images/3.0.2-16.png) | ![3.0.2-17](./Images/3.0.2-17.png) | ![3.0.2-18](./Images/3.0.2-18.png) | ![3.0.2-19](./Images/3.0.2-19.png) |
 
   > These covers can be selected from the the **Styles** section of the properties in the Edit Box Form.  Or you can edit and change these from the Box Styles in the JSON Editor in the right hand menu. 
   >
@@ -187,9 +187,9 @@ The new additions include:
 
   | Alignment | For a lens that is wider than the text, you can align the text to the Left of a box | Lens Example                                          |
   | --------- | ------------------------------------------------------------ | :-----------------------------------------------------: |
-  | Start     | For a lens that is wider than the text, you can align the text to the Left of a box | ![Image](./Images/3.0.2-13.png") |
-  | End       | For a lens that is wider than the text, you can align the text to the right of a box | ![Image](./Images/3.0.2-12.png") |
-  | Centre    | For a lens that is wider than the text, you can align the text to be in the center of the box | ![Image](./Images/3.0.2-14.png") |
+  | Start     | For a lens that is wider than the text, you can align the text to the Left of a box | ![3.0.2-13](./Images/3.0.2-13.png) |
+  | End       | For a lens that is wider than the text, you can align the text to the right of a box | ![3.0.2-12](./Images/3.0.2-12.png) |
+  | Centre    | For a lens that is wider than the text, you can align the text to be in the center of the box | ![3.0.2-14](./Images/3.0.2-14.png) |
 
   > These values can also be placed inside a LensText Padding using the textAlignment attribute.
 
@@ -199,49 +199,26 @@ To accompany the text alignment, there is a **text padding** that ensures your l
 
 ## 10. Enterprise Lens Codes
 
-### New Feature
+### Bug
 
-[EL-595] Ability to Multi-Edit, select a range of Boxes and DELETE them from the Illustration
+[EL-648](https://enterpriselens.atlassian.net/browse/EL-648) Error Checking - If you select a Story and whilst on that Story decide to Delete it - EL Crashes
 
-[EL-604] URL Link when in View Mode
+### Task
 
-[EL-649] Ability to Import Lenses from any Illustration
-
-[EL-652] Left Align, Right Align, Centred Box Text manipulation within a Box
-
-
+[EL-632](https://enterpriselens.atlassian.net/browse/EL-632) Update GitHub Actions from Node 12 to Node 16
 
 ### Improvement
 
-[EL-558] Rename TOOLTIP "Show View Sidebar" to "Show Left Hand Menu" AND "Show Edit Sidebar" to "Show Right Hand Menu"
+[EL-667](https://enterpriselens.atlassian.net/browse/EL-667) New Default Illustration
 
-[EL-601] When you hide ALL Child boxes - the parent Name does not re-centre 
+### New Feature
 
-[EL-620] New Login Logo and Header Logo replaced with current EL branding
+[EL-513](https://enterpriselens.atlassian.net/browse/EL-513) Export filename to have the same name as the Illustration
 
-[EL-658] Change "Types" to "Box Types" in the Left and Right hand menu
+[EL-640](https://enterpriselens.atlassian.net/browse/EL-640) Export to Excel \(Canvas & Child Box\) to support new URL feature
 
-[EL-659] 3.0.2 Facelift - Changes to Default Illustration.  A richer default illustration is created automatically when you create a new illustration
-
-[EL-663] Add a new role IllustrationJSONEditorView to manage JSON Editor access
+[EL-671](https://enterpriselens.atlassian.net/browse/EL-671) Create a new secured tenancy
 
 
 
-### Bug
-
-[EL-603] Lens Editor and the order of menu entries is not being respected in Left Hand Menu
-
-[EL-605] Box Text is not being centred.
-
-[EL-610] Type Ahead for Attribute Names in Associations
-
-[EL-618] Adding a new Render Function to a Global Lens does not appear unless you save the Illustration, exit and open it again
-
-[EL-622] Importing a Global Lens removes the Global Lens Values from Display
-
-[EL-628] Import of Attributes not showing attribute name in excel export
-
-[EL-650] Layout Weight Render Function crashes Enterprise Lens in certain situations
-
-[EL-661] Icons not displaying properly for box direction control
 
