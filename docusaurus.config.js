@@ -32,6 +32,7 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+    onBrokenLinks ''
   },
 
   presets: [
@@ -106,7 +107,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: 'blog/',
               },
               {
                 label: 'GitHub',
