@@ -1,5 +1,6 @@
 const visit = require('unist-util-visit');
 
+const plugin = (options) => {
 /**
    * Docusaurus does not process JSX `<img src ="...">` URLs
    * This plugin rewrites the src attribute to `src={require("...").default}`
@@ -16,5 +17,7 @@ const visit = require('unist-util-visit');
       });
     };
   };
+  return transformer;
+};
 
 module.exports = plugin;
