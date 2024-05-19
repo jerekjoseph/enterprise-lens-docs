@@ -1,17 +1,17 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+brian:
+  name: Brian McSkimming
+  title: Managing Director and Founder
+  url: https://www.linkedin.com/in/brian-mcskimming-0b8981/
+  image_url: https://enterprise-lens-docs.jerek.dev/Brian-McSkimming-Author.jpeg
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+sorcha:
+  name: Sorcha Murphy
+  title: Business Consultant
+  url: https://enterpriselens.com
+  image_url: https://enterprise-lens-docs.jerek.dev/Placeholder-Author.png
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+jerek:
+  name: Jerek Joseph
+  title: Business Consultant
+  url: https://enterpriselens.com
+  image_url: https://enterprise-lens-docs.jerek.dev/Placeholder-Author.png
