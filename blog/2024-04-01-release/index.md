@@ -283,8 +283,6 @@ Now you can drag and drop your excel file into the Box or click within the blue 
 
 When you click **Import**, it will load the Excel data directly into the Illustration.
 
-[Top](#enterprise-lens-version-3.1.5-release-notes)
-
 
 
 
