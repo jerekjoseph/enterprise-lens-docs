@@ -29,11 +29,11 @@ Legends are an easy way to communicate what a Lens means. They provide a shortcu
 
 Legends are created in the ``Box Styles`` section in the the Right Hand menu under the JSON Editor, see below. 
 
-<img src="./Images/316-1.png" alt="Screenshot 2024-02-29 at 14.05.51" style="zoom:75%;" /> 
+<img src="./Images/316-1.png" alt="Screenshot 2024-02-29 at 14.05.51"/> 
 
 This is example JSON code used that created a Legend entry.
 
-<img src="./Images/316-2.png" alt="Screenshot 2024-02-29 at 14.10.05" style="zoom:75%;" /> 
+<img src="./Images/316-2.png" alt="Screenshot 2024-02-29 at 14.10.05"/> 
 
 Different file types (such as png, jpeg, ico and gif) can be used within legends to show icons rather than a simple box border colour or background colour etc. This allows different types of Lenses, such as a logo, to be replicated in the legend. 
 
@@ -53,7 +53,7 @@ After selecting ``Show Legend Menu``, you should be able to view the legends you
 
 To provide some context, here is an illustration with a Lens that shows the impact that a project has on a business. The red solid border indicates that there is a direct impact on a business function from the program of work, where as the red dashed border indicates an indirect impact. We have also included a logo example to show how it can be used within a legend.
 
-<img src="./Images/316-5.png" alt="Screenshot 2024-02-29 at 13.02.35" style="zoom:100%;" /> 
+<img src="./Images/316-5.png" alt="Screenshot 2024-02-29 at 13.02.35"/> 
 
 
 
@@ -71,7 +71,7 @@ This entire section can be removed with the new role.
 
 To access Roles within Enterprise Lens, simply click on the 3 dashes in the top right hand corner and select Security  -> Roles, as below.
 
-<img src="./Images/316-6.png" alt="Screenshot 2024-02-29 at 13.02.35" style="zoom:75%;" /> 
+<img src="./Images/316-6.png" alt="Screenshot 2024-02-29 at 13.02.35"/> 
 
 
 
