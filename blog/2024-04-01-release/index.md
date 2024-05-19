@@ -192,7 +192,7 @@ If you edit the "Amount" Attribute (that has order 2 in the example above)
 
 You can use the arrows to `increase` or `decrease` the value in the Amount attribute above.
 
-> Note: The Number value type can now be used in Power Lenses to provide <,comparisons
+> Note: The Number value type can now be used in Power Lenses to provide `<` ,comparisons
 
 
 
