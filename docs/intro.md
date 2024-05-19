@@ -3,6 +3,6 @@ sidebar_position: 1
 slug: /
 ---
 
-# Welcome
+# Under Construction
 
-This is still a work in progress. :P
+See all release notes [here!](https://enterprise-lens-docs.jerek.dev/blog)
