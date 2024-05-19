@@ -75,13 +75,13 @@ To access Roles within Enterprise Lens, simply click on the 3 dashes in the top 
 
 
 
+## 3. Jira Codes
 
-
-#### New Feature
+### New Feature
 
 [EL-697](https://enterpriselens.atlassian.net/browse/EL-697) Legend - shortcut in understanding what a Lens is expressing when text is not appropriate.
 
-#### Improvement
+### Improvement
 
 [EL-308](https://enterpriselens.atlassian.net/browse/EL-308) New role to remove the delete Associations menu from the Right Hand menu
 
