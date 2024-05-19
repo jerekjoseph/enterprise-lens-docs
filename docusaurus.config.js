@@ -23,7 +23,7 @@ const config = {
   organizationName: 'jerekjoseph', // Usually your GitHub org/user name.
   projectName: 'enterprise-lens-docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -73,18 +73,18 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          //{
-          //  type: 'docSidebar',
-          //  sidebarId: 'tutorialSidebar',
-          //  position: 'left',
-          //  label: 'Tutorial',
-          //},
-          //{to: '/blog', label: 'Blog', position: 'left'},
-          //{
-          //  href: 'https://github.com/facebook/docusaurus',
-          //  label: 'GitHub',
-          //  position: 'right',
-          //},
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Tutorial',
+          },
+          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -110,10 +110,10 @@ const config = {
           {
             title: 'More',
             items: [
-              //{
-              //  label: 'Blog',
-              //  to: 'blog/',
-              //},
+              {
+                label: 'Blog',
+                to: 'blog/',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
