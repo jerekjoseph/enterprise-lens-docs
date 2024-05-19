@@ -109,15 +109,15 @@ Here you will be building a query based on the **attributes (and their values) w
 
 > Comparison Operator examples:
 >
-> > `>`200 will have the impact of removing boxes from the screen where their value <= 200
+> > `>`200 will have the impact of removing boxes from the screen where their value `<=` 200
 > >
-> > `<=` 200 will have the impact of removing boxes from the screen where their value > 200
+> > `<=` 200 will have the impact of removing boxes from the screen where their value `>` 200
 > >
-> > `<` 200 will have the impact of removing boxes from the screen where their value >= 200
+> > `<` 200 will have the impact of removing boxes from the screen where their value `>=` 200
 > >
-> > `!=` 200 will have the impact of removing boxes from the screen where their value != 200
+> > `!=` 200 will have the impact of removing boxes from the screen where their value `!=` 200
 > >
-> > `==` 200 will have the impact of removing boxes from the screen where their value = 200
+> > `==` 200 will have the impact of removing boxes from the screen where their value `=` 200
 
 
 
