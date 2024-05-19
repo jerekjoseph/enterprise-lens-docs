@@ -8,17 +8,6 @@ tags: [release]
 We are pleased to present Enterprise Lens 3.0.4
 
 
-
-## Highlights
-
-| [Default Illustration](#1-default-illustration)        | [Load from Excel](#2-load-from-excel)       | [Dynamic Associations](#3-dynamic-associations) |
-| :----------------------------------------------------- | :------------------------------------------ | :---------------------------------------------- |
-| [**Typewriter Mode**](#4-typewriter-mode)              | [**Lens Directories**](#5-lens-directories) | [**URL Links**](#6-url-links)                   |
-| [**Multi-Edit**](#7-multi-edit)                        | [**Branding**](#8-branding)                 | [**Style Guide**](#9-style-guide)               |
-| **[Enterprise Lens Codes](#10-enterprise-lens-codes)** |                                             |                                                 |
-
-
-
 ## 1. Default Illustration
 
 There is a new default Illustration that is applied when you create **any** new Illustration.  This feature has been designed to assist users create a clean and professional interface to their Story.  It also incoroporates multiple new box types in the design with a layout to cater for all.  The twelve (12) default lenses have also been incorporated to the Illustration ensuring you have everything you need, out of the box, to create a quality Illustration in a short space of time.
@@ -68,11 +57,13 @@ It is recommended that Box Type 1 be your primary Box Type ie the Box Type that 
 | ---------------------------------------------------- | ----------------------------------------------------- |
 | ![3.0.2-4](./Images/3.0.2-4.png) | ![3.0.2-3](./Images/3.0.2-3.png) |
 
-> The box names are designed to be amended and tailored to your needs.  We suggest that whatever name you change the Box name in the right hand menu to be - also change the Box name in the Illustration as it will be easier to manage.
->
-> Hide the Box Types that you don't currently need, simply by unticking it from the Box Types menu on the left hand side.
+:::info
 
+The box names are designed to be amended and tailored to your needs.  We suggest that whatever name you change the Box name in the right hand menu to be - also change the Box name in the Illustration as it will be easier to manage.
 
+Hide the Box Types that you don't currently need, simply by unticking it from the Box Types menu on the left hand side.
+
+:::
 
 
 ## 2. Load From Excel
@@ -92,13 +83,17 @@ You are able to create dynamic associations that are based on data values and so
 
 This association type allows you to join on Attribute values that belong to a box.  If you want to join back, simply use the **Attribute Value Reverse lookup**.
 
-> Data Driven Associations: As Data values change so will the underlying association.  eg if a Box belonged to a Region and then that same box changed its region attribute to something new - then association would also change to reflect the newly selected region.
+:::note 
+Data Driven Associations: As Data values change so will the underlying association.  eg if a Box belonged to a Region and then that same box changed its region attribute to something new - then association would also change to reflect the newly selected region.
+:::
 
 ### Names Lookup
 
 This assoication type allows you to join on the Name of a Box to other boxes that have that value as an attribute eg Low, Medium, High.  If you want to join back simply use the **Name Reverse Lookup**.
 
-> Data Driven Associations: As Data values change so will the underlying association.  eg if a Box name belonged to a Region and then that same box changed its Box name to something new - then association would also change to reflect the newly selected Box Name.
+:::note 
+Data Driven Associations: As Data values change so will the underlying association.  eg if a Box name belonged to a Region and then that same box changed its Box name to something new - then association would also change to reflect the newly selected Box Name.
+:::
 
 
 
@@ -106,12 +101,13 @@ This assoication type allows you to join on the Name of a Box to other boxes tha
 
 This mode allows you to add Boxes to an Illustration and determine when the display `wraps` and creates a new row of boxes.  For example.  if you set typewriter mode to be 6 then it will create an illustration with 6 Boxes per row.  When you click to add the 7th box, it will create a new row and put this new box on that row.
 
-> **Typewriter Mode:**
->
-> > the value can be amended at anytime and all boxes will be laid out to reflect the new value.
-> >
-> > This is a great feature to use when you are importing values from Excel.
->
+:::tip[Typewriter Mode]
+
+The value can be amended at anytime and all boxes will be laid out to reflect the new value.
+
+This is a great feature to use when you are importing values from Excel.
+
+:::
 
 To use:
 
@@ -177,10 +173,11 @@ The new additions include:
   | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
   | ![3.0.2-15](./Images/3.0.2-15.png) | ![3.0.2-16](./Images/3.0.2-16.png) | ![3.0.2-17](./Images/3.0.2-17.png) | ![3.0.2-18](./Images/3.0.2-18.png) | ![3.0.2-19](./Images/3.0.2-19.png) |
 
-  > These covers can be selected from the the **Styles** section of the properties in the Edit Box Form.  Or you can edit and change these from the Box Styles in the JSON Editor in the right hand menu. 
-  >
-  > They appear by default whenever you create a new Illustration.
+:::info
+These covers can be selected from the the **Styles** section of the properties in the Edit Box Form.  Or you can edit and change these from the Box Styles in the JSON Editor in the right hand menu. 
 
+They appear by default whenever you create a new Illustration.
+:::
 
 
 ### Text Alignment
@@ -191,7 +188,9 @@ The new additions include:
   | End       | For a lens that is wider than the text, you can align the text to the right of a box | ![3.0.2-12](./Images/3.0.2-12.png) |
   | Centre    | For a lens that is wider than the text, you can align the text to be in the center of the box | ![3.0.2-14](./Images/3.0.2-14.png) |
 
-  > These values can also be placed inside a LensText Padding using the textAlignment attribute.
+:::note
+These values can also be placed inside a LensText Padding using the textAlignment attribute.
+:::
 
 To accompany the text alignment, there is a **text padding** that ensures your lense values have a little space at the start or end of the Lens.  This default is set to 8 pixels (from the start and end) and can be changed at anytime be setting the number of pixels or by changing the internal attribute.
 

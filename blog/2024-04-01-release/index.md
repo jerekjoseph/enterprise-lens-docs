@@ -11,21 +11,6 @@ This version of Enterprise Lens is aimed at improving usability, accelerating le
 
 ------
 
-| TABLE OF CONTENTS                                            |
-| ------------------------------------------------------------ |
-| **[1. Association Wizard](#1-association-wizard)**           |
-| **[2. Power Lens Wizard](#2-power-lens-wizard)**             |
-| **[3. Templates](#3-templates)**                             |
-| **[4. Support for Numbers](#4-support-for-numbers)**         |
-| **[5. Easily Hide/Show Box Types](#5-easily-hide/show-box-types)** |
-| **[6. Add New Boxes to a Story](#6-add-new-boxes-to-a-story)** |
-| **[7. New Role Abilities (Exporting and Importing)](#7-new-role-abilities-exporting-and-importing)** |
-| **[8. Jira Codes](#8-jira-codes)**                           |
-
-
-
-
-
 ## 1. Association Wizard
 
 The Associations Wizard allows you to easily create new associations from any attribute within your Illustration.
@@ -105,20 +90,23 @@ You select the `Box Type` that holds the `Attribute`, determine the `Comparison 
 
 Here you will be building a query based on the **attributes (and their values) within a box type**. This is useful for when you want to **compare specific attribute values** that boxes have and `remove` everything else from the screen
 
-> Remember that the Parent Box Type must be different from the Children Box Type in a Power Lens.
+:::warning
+Remember that the Parent Box Type must be different from the Children Box Type in a Power Lens.
+:::
 
-> Comparison Operator examples:
->
-> > `>`200 will have the impact of removing boxes from the screen where their value `<=` 200
-> >
-> > `<=` 200 will have the impact of removing boxes from the screen where their value `>` 200
-> >
-> > `<` 200 will have the impact of removing boxes from the screen where their value `>=` 200
-> >
-> > `!=` 200 will have the impact of removing boxes from the screen where their value `!=` 200
-> >
-> > `==` 200 will have the impact of removing boxes from the screen where their value `=` 200
+:::note
+Comparison Operator examples:
 
+`>` 200 will have the impact of removing boxes from the screen where their value `<=` 200
+
+`<=` 200 will have the impact of removing boxes from the screen where their value `>` 200
+
+`<` 200 will have the impact of removing boxes from the screen where their value `>=` 200
+
+`!=` 200 will have the impact of removing boxes from the screen where their value `!=` 200
+
+`==` 200 will have the impact of removing boxes from the screen where their value `=` 200
+:::
 
 
 **EXAMPLE**: You wants to hide Projects that have the attribute ``Priority`` value of ``Low``. This example will be used below to explain the available options below:
@@ -160,8 +148,9 @@ After selecting a `Template Client`, (we selected `Template` from the example ab
 
 Select a `Template Project` and all the Template Illustration that are part of that Template Project will present themselves whenever you create `ANY` new Illustration for that Client. 
 
-> TIP: Every Client can have their `OWN` Templates to Choose from or you can build a central repository.
-
+:::tip
+Every Client can have their `OWN` Templates to Choose from or you can build a central repository.
+:::
 
 
 ## 4. Support for 'Numbers'
@@ -192,8 +181,9 @@ If you edit the "Amount" Attribute (that has order 2 in the example above)
 
 You can use the arrows to `increase` or `decrease` the value in the Amount attribute above.
 
-> Note: The Number value type can now be used in Power Lenses to provide `<` ,comparisons
-
+:::note
+The Number value type can now be used in Power Lenses to provide `<` ,comparisons
+:::
 
 
 ## 5. Easily Hide/Show Box Types
@@ -251,10 +241,12 @@ With this new release comes more granular permissions on who can import or expor
 
 When you open the Edit Box form, for ANY Box, you will be presented with two new roles at the top of the form.  
 
->  **TIP: You typically Export and Import from the same box within the Illustration**
+:::tip[You typically Export and Import from the same box within the Illustration]
 
-![Screenshot 2024-02-29 at 16.06.14](./Images/315-21.png)**Please note** that the example also has ``Create Automatic Filters`` and ``Add Child Boxes`` in the `Edit Box form` , but they may not be present as it depends on your access privileges.
+![Screenshot 2024-02-29 at 16.06.14](./Images/315-21.png)
 
+**Please note** that the example also has ``Create Automatic Filters`` and ``Add Child Boxes`` in the `Edit Box form`, but they may not be present as it depends on your access privileges.
+:::
 
 
 #### Export Child Boxes
