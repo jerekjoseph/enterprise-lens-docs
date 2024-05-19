@@ -48,6 +48,7 @@ const config = {
             'https://github.com/jerekjoseph/enterprise-lens-docs/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          routeBasePath: '/blog',
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
