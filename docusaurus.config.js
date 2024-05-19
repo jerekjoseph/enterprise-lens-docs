@@ -42,6 +42,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
+          beforeDefaultRemarkPlugins: [remarkImageSrcWithBase],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -139,15 +140,4 @@ const config = {
     }),
 };
 
-export default {
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          beforeDefaultRemarkPlugins: [remarkImageSrcWithBase],
-        },
-      },
-    ],
-  ],
-};
+export default config;
