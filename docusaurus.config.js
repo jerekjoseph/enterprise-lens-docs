@@ -40,8 +40,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          plugins: [remarkImageSrc],
-          beforeDefaultRemarkPlugins: [remarkImageSrc],
+          plugins: ['remarkImageSrc'],
+          beforeDefaultRemarkPlugins: ['remarkImageSrc'],
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
           // Please change this to your repo.
